@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <main class="conteudo-principal">
+        <section class="sessao-login">
+            <form action="/src/BackEnd/php/processandoDados.php" method="POST">
+                <div class="container-title">
+                    <h1 class="titulo" id="titulo">Login</h1>
+                </div>
+                <div class="container-inputs">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+                </div>
+                <div class="container-inputs">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                <div class="container-inputs">
+                    <input type="submit" value="Entrar">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
